@@ -8,7 +8,7 @@ import pandas as pd
 import streamlit as st
 
 
-MODEL_PATH = Path("artifacts/ufc_extra_trees_calibrated.joblib")
+MODEL_PATH = Path("ufc_extra_trees_calibrated.joblib")
 
 FEATURE_LABELS = {
     "age_diff_years": "Разница возраста, лет",
